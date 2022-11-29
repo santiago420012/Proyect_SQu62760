@@ -1,0 +1,39 @@
+#div_dessert1, #div_dessert2
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 100px auto 100px auto;
+}
+#div_dessert1>span, #div_dessert2> span
+{
+    flex: 1 1 300px;
+    text-align: center;
+
+}
+img
+{
+    max-height: 50%;
+    min-width: 60px;
+}
+input[type='number']
+{
+    visibility: hidden;
+
+}
+input[type='submit'], input[type='reset']
+{
+        width: 45%;
+        margin-bottom: 3%;
+}
+#Desserts
+{
+    border-radius: 6%;
+    background-color: #FFB9B9;
+    margin: 2% auto 2% auto;
+    box-shadow: 12px 12px;
+    
+}
+.donut_video
+{
+    margin:0 0 0 0;
+}

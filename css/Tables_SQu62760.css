@@ -1,0 +1,29 @@
+article>form
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+form> div
+{
+    flex: 1 1  200px;
+}
+#Desserts> div, #Cakes>div
+{
+    margin: 5% auto 5% auto;
+    contain: content;
+}
+span
+{
+    width: 100%;
+    margin: 4% auto 4% auto;
+    display: inline;
+}
+td,th
+{
+    text-align: left;
+}
+
+
+
+
+

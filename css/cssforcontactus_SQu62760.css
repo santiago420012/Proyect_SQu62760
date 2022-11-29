@@ -1,0 +1,49 @@
+
+div>span 
+{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: right;
+}
+span>input, label
+{
+    flex: 1 .1 200px;
+}
+textarea
+{
+    width: 100%;
+    height: 200px;
+}
+[type='button'],[type='reset']
+{
+        width: 50%;
+        margin-bottom: 3%;
+        height: 26px;
+}
+input#Name:focus:valid
+{
+    background: honeydew url(../Content/rb_valid.png) bottom right/contain no-repeat;
+}
+input#Name:focus:invalid
+{
+    background: mistyrose url(../Content/rb_invalid.png) bottom right/contain no-repeat;
+}
+
+
+input#LastName:focus:valid
+{
+    background: honeydew url(../Content/rb_valid.png) bottom right/contain no-repeat;
+}
+input#LastName:focus:invalid
+{
+    background:  mistyrose url(../Content/rb_invalid.png) bottom right/contain no-repeat;
+}
+
+input#Email:focus:valid
+{
+    background: honeydew url(../Content/rb_valid.png) bottom right/contain no-repeat;
+}
+input#Email:focus:invalid
+{
+    background:  mistyrose url(../Content/rb_invalid.png) bottom right/contain no-repeat;
+}

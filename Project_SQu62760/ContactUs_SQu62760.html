@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Santiago">
+        <link href="../css/style_SQu62760.css" rel="stylesheet">
+        <title> Contact us page</title>
+        
+        <link href="../css/cssforcontactus_SQu62760.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <article>
+                <div id="Tittle">
+                    <h1>Desserts de Bella</h1>
+                    <h3>Delicious & Organic & Gluten-Free</h3>
+                </div>
+                
+                <div id="menubar">
+                    <!--Create a Menu bar with the two other Project_SQu62760  -->
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <img id= "fasfabar" src="../Content/fasfabar.png ">
+                    </label>
+                    <ul>
+                        <li><a href="../Project_SQu62760/MainPage_SQu62760.html">Home</a></li>
+                        <li><a href= "../Project_SQu62760/Cakes_SQu62760.html">Cakes</a></li>
+                        <li><a href="../Project_SQu62760/Desserts_SQu62760.html">Desserts</a></li>
+                        <li><a href="../Project_SQu62760/ContactUs_SQu62760.html">Contact</a></li>
+
+                    </ul>
+                </div>
+            </article>
+        </header>
+        <article>
+            <div>
+                <h1> Contact Us</h1>
+            </div>
+            <form name="myform" method="get" action="" >
+                <div id=" form_info">
+                    <span>
+                        <label>Name: </label>
+                        <input type="text" id="Name" name="Name" placeholder="Santiago" maxlength="30" size="15" required>
+                       
+                    </span>
+                    <span>
+                        <label>LastName: </label>
+                        <input type="text" id="LastName" name="LastName" placeholder="Quiroga" maxlength="30" size="15" pattern=".{8,}"required >
+                    </span>
+                    <span>
+                        <label>Email: </label>
+                        <input type="email" id="Email" placeholder="xxxx@douglascollege.ca" pattern=".{8,}" required>
+                    </span>
+                    <span>
+                        <label>How was your experience with the web page.</label>
+                        <select name="questions" id="questions_id" required>
+
+
+                        </select>
+                    </span>
+                  
+                    <textarea id="TextArea"> Add any information you want us to Know.</textarea>
+                    <span>
+                        <input type="button" id="Mybttn" name="submit" value="Submit my form">
+                        <input type="reset">
+                    </span>
+                </div>
+                <div id="costSection"></div>
+                <div id="AnimationMessage"></div>
+                
+            </form>
+        </article>
+        <footer>
+            <!-- Add Instagram and whatsaap Button as well as Information to the buisness owners -->
+            <h1> Visit our social Media</h1>
+            <a href="https://www.instagram.com/desserts_d_bella/"><img src="../Content/instagrampng.png"></a>
+            <div>
+                <p>Make your order here</p>
+                <button value="Buy a Cake"><a href="../Project_SQu62760/Cakes_SQu62760.html">Buy a Cake</a></button>
+                <button value="Buy Desserts"><a href="../Project_SQu62760/Desserts_SQu62760.html">Buy Desserts</a></button>
+                <!-- Make the button clickable and change of text ("not available at the moment") -->
+            </div>
+            <br>
+            <small><em> CSIS1280 Santiago Quiroga Proyect for Web development.</em></small>
+        </footer>
+        <script src="../Javascript/scriptContactUs_SQu62760 .js"></script>
+        
+    </body>
+</html>

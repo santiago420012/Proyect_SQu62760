@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="author" content="Santiago Quiroga">
+    <link href="../css/style_SQu62760.css" rel="stylesheet">
+    <link href="../css/Tables_SQu62760.css" rel="stylesheet">
+    <script src="../Javascript/scriptCakes_SQu62760.js"></script>
+    <title> Products information </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</html>
+<body>
+    <header>
+        <article>
+            <div id="Tittle">
+                <h1>Desserts de Bella</h1>
+                <h3>Delicious & Organic & Gluten-Free</h3>
+            </div>
+            
+            <div id="menubar">
+                <!--Create a Menu bar with the two other Project_SQu62760  -->
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <img id= "fasfabar" src="../Content/fasfabar.png ">
+                </label>
+                <ul>
+                    <li><a href="../Project_SQu62760/MainPage_SQu62760.html">Home</a></li>
+                    <li><a href= "../Project_SQu62760/Cakes_SQu62760.html">Cakes</a></li>
+                    <li><a href="../Project_SQu62760/Desserts_SQu62760.html">Desserts</a></li>
+                    <li><a href="../Project_SQu62760/ContactUs_SQu62760.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </article>
+    </header>
+
+
+        <article id = "Cakes">
+            <h1> Cakes </h1>
+            <h3> Click any cake you want...</h2>
+                <div>
+                    <img src="../Content/WhatsApp Image 2022-10-28 at 9.21.46 AM.jpeg" onclick="Check1()">
+                    <a><img src="../Content/WhatsApp Image 2022-10-28 at 9.21.46 AM (3).jpeg"onclick="Check2()"></a>
+                    <a><img src="../Content/WhatsApp Image 2022-10-28 at 9.21.46 AM (2).jpeg"onclick="Check3()"></a>
+                    <div>
+                        <a><img src="../Content/WhatsApp Image 2022-10-28 at 9.21.46 AM (6).jpeg"onclick="Check4()"></a>
+                       <a> <img src="../Content/WhatsApp Image 2022-10-28 at 9.21.46 AM (7).jpeg"onclick="Check5()"></a>
+                    </div>
+                </div>
+                <div class="video_back">
+                    <video autoplay loop muted plays-inline><source src="../Content/videoplayback (1).mp4" type="video/mp4"></video>
+                    <!-- Shomali, E. S. (2020, April 3). Cake B-roll.
+                         YouTube. Retrieved November 28, 2022, 
+                         from https://www.youtube.com/watch?v=UGvsHQ55Kng&amp;ab_channel=EhsanShomali  -->
+                </div>
+
+            <h1>Options </h1>
+        <form id="Order_cake " method="get" action="">
+            <div>   
+            <table id="Sauces">
+                <h2> Sauces</h2>
+                <thead>
+                    <tr>
+                        <th>
+                            ingredients
+                        </th>
+                        <th>
+                            Cost
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="strawberrySauce" class="Sauces" name="Strawberry Sauce">
+                            Strawberry Sauce
+                        </td>
+                        <td >
+                            2$  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="dulceDeLeche" class="Sauces" name="Dulce de Leche">
+                            Dulce de Leche
+                        </td>
+                        <td>
+                            3$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="chantilli" class="Sauces" name="No sugar Chantilli">
+                            No sugar Chantilli
+                        </td>
+                        <td>
+                            2.5$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="vainillaCreme" class="Sauces" name="Vainilla Creme">
+                            Vainilla Creme
+                        </td>
+                        <td>
+                            2.25$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="smurfMagic" class="Sauces" name="The smurf magic">
+                            The smurf magic
+                        </td>
+                        <td>
+                            4$
+                        </td>
+                    </tr>
+                </thead>
+                
+            </table>
+            </div>
+            <div>
+            <table>
+                    <h2> Toppings</h2>
+                    <thead>
+                        <tr>
+                            <th>
+                                ingredients
+                            </th>
+                            <th>
+                                Cost
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="slicedAlmonds" class="Toppings" name="Sliced Almonds">
+                                Sliced Almonds
+                            </td>
+                            <td>
+                                3.4$
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="berriesMix" class="Toppings"name="Red berries Mix">
+                                Red berries Mix
+                            </td>
+                            <td>
+                                3$
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="appleCrumble" class="Toppings" name="Apple Crumble">
+                                Apple Crumble
+                            </td>
+                            <td>
+                                3.4$
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="merengon" class="Toppings" name="No-sugar Merengon">
+                                No-sugar Merengon
+                            </td>
+                            <td>
+                                4.5$
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="specialDesign" class="Toppings" name="Special Design">
+                                Special Design
+                            </td>
+                            <td>
+                                7$
+                            </td>
+                        </tr>
+                    </thead>
+            </table>
+            </div>
+            <div>
+            <table>
+                <h2> Dough </h2>
+               
+                <thead>
+                    <tr>
+                        <th>
+                            ingredients
+                        </th>
+                        <th>
+                            Cost
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="redVelvet" class="dough" name="Red Velvet">
+                            Red Velvet
+                        </td>
+                        <td>
+                            8$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="tripleMilk"  class="dough" name="Triple Milk">
+                            Triple Milk
+                        </td>
+                        <td>
+                            9$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="Mint"  class="dough" name="Mint">
+                            Mint 
+                        </td>
+                        <td>
+                            6$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="vainillaFit"  class="dough" name="Vainilla fit">
+                            Vainilla fit
+                        </td>
+                        <td>
+                            7$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="specialBella"  class="dough" name="D'Bella Special">
+                            D'Bella Special
+                        </td>
+                        <td>
+                            7.99$
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+            </div>
+            <div>
+            <table>
+                <h2> Presentation</h2>
+                <thead>
+                    <tr>
+                        <th>
+                            Type
+                        </th>
+                        <th>
+                            Cost
+                        </th>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="1Layer" class="presentation" name="1 Layer">
+                            1 Layer
+                        </td>
+                        <td>
+                            6$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="2Layers" class="presentation" name="2 Layers">
+                            2 Layers
+                        </td>
+                        <td>
+                            9$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="3Layers" class="presentation" name="3 Layer">
+                            3 Layer
+                        </td>
+                        <td>
+                            11$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="wedding" class="presentation" name="Wedding special">
+                            Wedding special
+                        </td>
+                        <td>
+                            16$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="personalSize" class="presentation" name="personal size">
+                            personal size
+                        </td>
+                        <td>
+                            6$
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+            </div>
+                <br>
+                <span>
+                    <!-- <input type="submit" onclick="PrintOrder(event)"> -->
+                    <input type="submit" onclick="PrintOrder(event)">
+                    <input type="reset" value="Reset">
+                </span>
+                <div><p id="printOrder"></p></div>
+                
+    </article>
+    <footer>
+        <!-- Add Instagram and whatsaap Button as well as Information to the buisness owners -->
+        <h1> Visit our social Media</h1>
+        <a href="https://www.instagram.com/desserts_d_bella/"><img src="../Content/instagrampng.png"></a>
+        <div>
+            <label>Order Now </label>
+            <input type="button" value="Make your order here"> 
+            <!-- Make the button clickable and change of text ("not available at the moment") -->
+        </div>
+        <br>
+        <small><em> CSIS1280 Santiago Quiroga Proyect for Web development.</em></small>
+    </footer>
+</body>
